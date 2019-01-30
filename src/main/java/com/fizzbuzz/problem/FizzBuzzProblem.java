@@ -7,7 +7,9 @@ public class FizzBuzzProblem {
     }
 
     public String getFizzBuzz(int number){
-
+            if(number % 15 ==0 ){
+                return "fizzbuzz";
+            }
         return "";
     }
 }
