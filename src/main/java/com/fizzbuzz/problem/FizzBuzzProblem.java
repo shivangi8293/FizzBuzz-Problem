@@ -16,6 +16,6 @@ public class FizzBuzzProblem {
             else if(number % 3 == 0){
                 return "fizz";
             }
-        return "";
+        return String.valueOf(number);
     }
 }
