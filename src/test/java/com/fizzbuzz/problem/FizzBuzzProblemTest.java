@@ -17,5 +17,14 @@ public class FizzBuzzProblemTest {
 
     }
 
+    @Test
+    public void testGetFizzBuzz_ForOutputBuzz(){
+        FizzBuzzProblem fizzBuzzProblem= new FizzBuzzProblem();
+        String actual = fizzBuzzProblem.getFizzBuzz(10);
+
+        assertEquals("buzz" , actual);
+
+    }
+
 
 }
