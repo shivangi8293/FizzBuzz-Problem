@@ -6,6 +6,7 @@ public class FizzBuzzProblem {
     FizzBuzzProblem fizzBuzzProblem = new FizzBuzzProblem();
 
 
+    //calling methods
     fizzBuzzProblem.getFizzBuzz(15);
 
     fizzBuzzProblem.getFizzBuzz(9);
